@@ -4,7 +4,7 @@ import operator
 import random
 import math
 
-print('Answer the multiplication problems before time runs out!')
+print('Answer the multiplication questions before time runs out!')
 time.sleep(3)
 print('Ready? Go!')
 start_time = time.time()

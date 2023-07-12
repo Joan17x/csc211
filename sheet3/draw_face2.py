@@ -4,12 +4,12 @@ begin_graphics()
 
 
 def drawFace(x,y):
-    Circle((x,y),40, color="black")
+    Circle((x,y),40, color="blue")
 
 
 
-    Circle((x-20,y), 5, color="black", filled=True)
-    Circle((x+20,y), 5, color="black", filled=True)
+    Circle((x-20,y), 5, color="blue")
+    Circle((x+20,y), 5, color="blue")
 
     Line((x,y+10),(x-10,y-10))
     Line((x-10,y-10),(x+10,y-10))

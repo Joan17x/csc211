@@ -17,4 +17,3 @@ while True:
         guesses = guesses +1
         print("You took " + str(guesses) + " guesses.")
         break
-        

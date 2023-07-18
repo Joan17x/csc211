@@ -50,7 +50,7 @@ def move_player():
 def check_collisions():
     global finished
     if player_x == bot_x and player_y == bot_y:
-        Text("You've Been Caught", (320, 240), size=20)
+        Text("You got caught!", (320, 240), size=20)
         sleep(2)
         finished = True
 def safe_player():
